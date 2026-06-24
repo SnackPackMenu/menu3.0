@@ -1,54 +1,124 @@
-<!DOCTYPE html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Snack Pack Flightz - Join</title>
 <style>
-body{background:#0f1115;color:#fff;font-family:Arial;max-width:760px;margin:auto;padding:20px;line-height:1.6}
-.card{background:#1b1f27;padding:18px;border-radius:10px;margin:18px 0}
-.btn{display:block;text-align:center;background:#00c853;color:#fff;text-decoration:none;padding:14px;border-radius:8px;font-weight:bold;margin:10px 0}
-h1,h2{color:#00e5ff}
-.warn{color:#ffd54f;font-weight:bold}
-</style></head><body>
-<h1>✈️ Welcome to Snack Pack Flightz</h1>
-<p><b>Earn Rewards • Invite Friends • VIP Drops • Never Miss a Restock</b></p>
-<div class='card'>
-<h2>📲 Join the Group</h2>
-<a class='btn' href='https://signal.org/install/'>1️⃣ Download Signal</a>
-<a class='btn' href='https://signal.group/#CjQKILBy5mEGES6ojfmcDneGcavO4pe-jWL8aWbBGIMu0olAEhDIPYOhVKTzQP-b61bWdS_1'>2️⃣ Join the Signal Group</a>
+:root{--bg:#07090d;--card:#111722;--card2:#151d2b;--cyan:#00e5ff;--green:#00c853;--yellow:#ffd54f;--text:#fff;--muted:#aab4c3;--line:rgba(255,255,255,.12)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at top,#142033 0,#07090d 45%,#050609 100%);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.55;padding:18px 14px 96px}.wrap{max-width:760px;margin:0 auto}.hero{text-align:center;padding:22px 12px 12px}.badge{display:inline-block;border:1px solid rgba(0,229,255,.35);color:var(--cyan);padding:7px 12px;border-radius:999px;font-size:13px;font-weight:800;letter-spacing:.4px;background:rgba(0,229,255,.08)}h1{font-size:34px;line-height:1.05;margin:16px 0 8px;color:#fff;text-shadow:0 0 18px rgba(0,229,255,.35)}.sub{color:var(--muted);font-size:16px;margin:0 auto 16px;max-width:580px}.card{background:linear-gradient(180deg,var(--card2),var(--card));border:1px solid var(--line);padding:18px;border-radius:16px;margin:14px 0;box-shadow:0 12px 35px rgba(0,0,0,.3)}h2{color:var(--cyan);margin:0 0 10px;font-size:21px}h3{margin:16px 0 8px}.btn{display:block;text-align:center;background:var(--green);color:#fff;text-decoration:none;padding:15px 14px;border-radius:12px;font-weight:900;margin:10px 0;border:0;width:100%;font-size:15px;box-shadow:0 0 20px rgba(0,200,83,.18);cursor:pointer}.btn.secondary{background:#101925;border:1px solid rgba(0,229,255,.4);color:var(--cyan);box-shadow:none}.btn.yellow{background:#ffd54f;color:#111}.warn{color:var(--yellow);font-weight:900}.steps{counter-reset:step;list-style:none;padding:0;margin:0}.steps li{position:relative;padding:12px 12px 12px 48px;margin:10px 0;background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:12px}.steps li:before{counter-increment:step;content:counter(step);position:absolute;left:13px;top:12px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:var(--cyan);color:#001018;font-weight:900}.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.mini{background:rgba(255,255,255,.05);border:1px solid var(--line);padding:12px;border-radius:12px}.mini b{color:#fff}.mini span{display:block;color:var(--muted);font-size:13px;margin-top:2px}.copybox{background:#070b12;border:1px dashed rgba(0,229,255,.45);padding:13px;border-radius:12px;color:#dffbff;word-break:break-all;font-size:14px}.toast{display:none;text-align:center;color:var(--green);font-weight:900;margin-top:8px}.rules li,.check li{margin:8px 0}.sticky{position:fixed;left:0;right:0;bottom:0;background:rgba(7,9,13,.94);backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:10px 12px;z-index:99}.sticky .inner{max-width:760px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:10px}.sticky .btn{margin:0;padding:13px 10px;font-size:14px}.signalnotice{background:rgba(255,213,79,.10);border:1px solid rgba(255,213,79,.45);color:#fff3b0;padding:13px;border-radius:12px;font-weight:900;margin:12px 0}.signalnotice span{color:#fff}.fine{color:var(--muted);font-size:13px;text-align:center;margin-top:14px}@media(max-width:560px){h1{font-size:29px}.grid{grid-template-columns:1fr}.sticky .inner{grid-template-columns:1fr 1fr}body{padding-left:12px;padding-right:12px}.card{padding:16px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<section class="hero">
+  <div class="badge">PRIVATE ACCESS • REWARDS • DROPS</div>
+  <h1>✈️ Welcome to Snack Pack Flightz</h1>
+  <p class="sub"><b>You need a Signal account first. Download Signal, create your account, then the group link will work.</b></p>
+  <div class="signalnotice">⚠️ <span>Group link will not work unless Signal is installed and your account is set up.</span></div>
+  <a class="btn secondary" href="https://signal.org/install/">1️⃣ DOWNLOAD SIGNAL FIRST</a>
+  <a class="btn" href="https://signal.group/#CjQKILBy5mEGES6ojfmcDneGcavO4pe-jWL8aWbBGIMu0olAEhDIPYOhVKTzQP-b61bWdS_1">2️⃣ JOIN THE SIGNAL GROUP</a>
+</section>
+
+<div class="card">
+  <h2>📲 Signal Setup Required</h2>
+  <ol class="steps">
+    <li>Download Signal first.</li>
+    <li>Create your Signal account with your phone number.</li>
+    <li>Come back to this page and tap Join The Signal Group.</li>
+    <li>If the link does not open, your Signal setup is not finished.</li>
+  </ol>
 </div>
-<div class='card'><h2>👥 Referral Program</h2>
-<p>Before your <b>first order</b>, send us the <b>name or phone number</b> of the person who referred you.</p>
-<p class='warn'>Referral information must be submitted before your first order to receive credit.</p></div>
-<div class='card'><h2>🛒 How to Order</h2><ol><li>Send the items you want.</li><li>Include quantity.</li><li>Pickup or delivery.</li><li>If delivery, include your address.</li><li>Wait for confirmation before paying.</li></ol></div>
-<div class='card'><h2>💳 Payment</h2><p class='warn'>Do NOT send payment until your order and total have been confirmed.</p><p>After paying, screenshot your confirmation and send it in Signal.</p></div>
-<div class='card'><h2>🎁 Rewards</h2><p>• 🎉 Earn <b>50 points</b> just for joining the rewards program.<br>
-• 💳 Card purchases earn points automatically.<br>
-• 💵 Cash purchases earn points too (entered manually).<br>
-• 👥 Every successful referral earns <b>100 reward points</b> (entered manually).<br>
-• 🎁 When the person you referred makes their <b>first purchase</b>, you also receive a <b>FREE 3.5g (eighth)</b>.</p></div>
-<div class='card'><h2>📢 Stay Updated</h2><p>Restocks • VIP Drops • Flash Sales • Giveaways • Referral Contests • Rewards Updates</p></div>
-<div class='card'><h2>📋 Community Rules</h2><ul><li>21+ only.</li><li>No spam.</li><li>Be respectful.</li><li>Order through Signal messages only.</li></ul></div>
-<h2>⛔ Copy This Invite Link</h2>
 
-<div class='card'>
-<h2>🚀 Ready to Order?</h2>
-
-<h3>Already have a Signal account?</h3>
-<p>Tap below to join the group and place your first order.</p>
-<a class='btn' href='https://signal.group/#CjQKILBy5mEGES6ojfmcDneGcavO4pe-jWL8aWbBGIMu0olAEhDIPYOhVKTzQP-b61bWdS_1'>JOIN THE GROUP &amp; START ORDERING</a>
-
-<hr style="border:1px solid #333;margin:25px 0;">
-
-<h3>Don't have Signal yet?</h3>
-<p>Download Signal first, then come back and join the group.</p>
-<a class='btn' href='https://signal.org/install/'>DOWNLOAD SIGNAL</a>
-
-<h3 style="margin-top:30px;">✅ New Member Checklist</h3>
-<ul>
-<li>☐ Download Signal (if you don't already have it)</li>
-<li>☐ Join the Snack Pack Flightz Signal Group</li>
-<li>☐ Tell us who referred you</li>
-<li>☐ Read the Menu</li>
-<li>☐ Place your First Order</li>
-<li>☐ Start Earning Rewards</li>
-</ul>
+<div class="card" id="copy">
+  <h2>📋 Copy This Invite Link</h2>
+  <p>Share this link with friends. When they join and make their first purchase, you earn rewards.</p>
+  <div class="copybox" id="inviteText">https://snackpackmenu.github.io/menu3.0/</div>
+  <button class="btn yellow" onclick="copyInvite()">TAP TO COPY INVITE LINK</button>
+  <a class="btn secondary" href="https://snackpackmenu.github.io/menu3.0/">OPEN INVITE LINK</a>
+  <div class="toast" id="toast">✅ Invite link copied</div>
 </div>
-</body></html>
+
+<div class="card">
+  <h2>👥 Referral Program</h2>
+  <div class="grid">
+    <div class="mini"><b>50 points</b><span>For joining rewards</span></div>
+    <div class="mini"><b>100 points</b><span>Per successful referral</span></div>
+    <div class="mini"><b>FREE 3.5g</b><span>When referral makes first purchase</span></div>
+    <div class="mini"><b>Manual entry</b><span>For cash + referrals</span></div>
+  </div>
+  <p class="warn">New members must send the name or phone number of whoever referred them before their first order.</p>
+</div>
+
+<div class="card">
+  <h2>🛒 How to Order</h2>
+  <ol class="steps">
+    <li>Download Signal and create your account first.</li>
+    <li>Join the Signal group after your account is ready.</li>
+    <li>Send item, quantity, and pickup or delivery.</li>
+    <li>If delivery, send your address.</li>
+    <li>Wait for order total and confirmation.</li>
+    <li>Pay only after confirmation, then screenshot proof.</li>
+  </ol>
+</div>
+
+<div class="card">
+  <h2>💳 Payment Rule</h2>
+  <p class="warn">Do NOT send payment until your order and total have been confirmed.</p>
+  <p>After paying, screenshot your confirmation and send it on Signal to verify your order.</p>
+</div>
+
+<div class="card">
+  <h2>📢 Why Stay In The Group?</h2>
+  <p>Restocks • VIP drops • flash sales • giveaways • referral contests • rewards updates</p>
+</div>
+
+<div class="card">
+  <h2>📋 Community Rules</h2>
+  <ul class="rules">
+    <li>21+ only.</li>
+    <li>No spam.</li>
+    <li>Be respectful.</li>
+    <li>Order through Signal messages only.</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h2>✅ New Member Checklist</h2>
+  <ul class="check">
+    <li>☐ Download Signal</li>
+    <li>☐ Create your Signal account</li>
+    <li>☐ Join the Snack Pack Flightz Signal Group</li>
+    <li>☐ Copy/save the invite link</li>
+    <li>☐ Tell us who referred you</li>
+    <li>☐ Read the menu</li>
+    <li>☐ Place your first order</li>
+    <li>☐ Start earning rewards</li>
+  </ul>
+</div>
+
+<p class="fine">Move fast. Invite people. Earn points. Don’t wait until the drop is gone.</p>
+</div>
+
+<div class="sticky">
+  <div class="inner">
+    <a class="btn secondary" href="https://signal.org/install/">SIGNAL FIRST</a>
+    <a class="btn" href="https://signal.group/#CjQKILBy5mEGES6ojfmcDneGcavO4pe-jWL8aWbBGIMu0olAEhDIPYOhVKTzQP-b61bWdS_1">JOIN GROUP</a>
+  </div>
+</div>
+
+<script>
+function copyInvite(){
+  const link='https://snackpackmenu.github.io/menu3.0/';
+  const toast=document.getElementById('toast');
+  if(navigator.clipboard && window.isSecureContext){
+    navigator.clipboard.writeText(link).then(()=>showToast(toast));
+  }else{
+    const ta=document.createElement('textarea');
+    ta.value=link;document.body.appendChild(ta);ta.select();document.execCommand('copy');document.body.removeChild(ta);showToast(toast);
+  }
+}
+function showToast(el){el.style.display='block';setTimeout(()=>{el.style.display='none'},2200)}
+</script>
+</body>
+</html>
